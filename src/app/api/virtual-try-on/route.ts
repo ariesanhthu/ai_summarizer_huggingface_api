@@ -40,7 +40,7 @@ export async function GET() {
 
         console.log("✅ API Response:", result.data);
 
-        return NextResponse.json({ success: true, data: result.data.map((item : any) => ({ url: item.url })) });
+        return NextResponse.json({ success: true, data: result.data});
     } catch (error) {
         console.error("❌ Error calling Virtual Try-On API:", error);
         return NextResponse.json({ success: false, error: "error.message" }, { status: 500 });
