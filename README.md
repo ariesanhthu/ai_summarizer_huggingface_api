@@ -45,7 +45,7 @@ Then, open **[http://localhost:3000](http://localhost:3000)** in your browser.
 
 ## 📂 Project Structure
 ```
-📦 your-repo
+📦 repo
 ├── 📁 app
 │   ├── 📁 api
 │   │   ├── 📁 huggingface
@@ -53,7 +53,7 @@ Then, open **[http://localhost:3000](http://localhost:3000)** in your browser.
 │   ├── 📄 page.tsx  # Main Page
 ├── 📁 components
 │   ├── 📄 HuggingFace.tsx  # Summarization UI
-├── 📄 .env.local.example  # Example Env File
+├── 📄 .env.local           # Env File
 ├── 📄 package.json
 ├── 📄 README.md
 ```
